@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    margin: 0;
+    /* background-image: linear-gradient(rgb(32, 4, 77),black); */
+    background-image: url('https://source.unsplash.com/1600x900/?rain');
+    color: white;
+    /* color: rgb(32, 4, 77); */
+    font-family: 'Sarabun', sans-serif;
+    /* font-size: 1rem; */
+}
+
+.card{
+    width: 100%;
+    max-width: 25rem;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 0.7rem;
+    padding: 1.7rem;
+}
+
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    justify-content: space-between;
+}
+
+.search-bar{
+    width: 18rem;
+    height: 2.75rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0% 3%;
+    font-size: 1.2rem;
+}
+
+@media (max-width : 440px){
+    .search-bar{
+        height: 2rem;
+        width: 15rem;
+        border-radius: 1.2rem;
+    }
+}
+
+@media (max-width : 350px){
+    .search-bar{
+        width: 10rem;
+    }
+}
+
+@media (max-width : 275px){
+    .search-bar{
+        width: 8rem;
+    }
+}
+
+.search-button{
+    /* border: none; */
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width : 440px){
+    .search-button{
+        height: 2.2rem;
+        width: 2.2rem;
+        border-radius: 1.2rem;
+    }
+}
+
+.temp{
+    cursor: pointer;
+}
+
+.leftflexy{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
